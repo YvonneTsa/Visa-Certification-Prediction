@@ -1,0 +1,16 @@
+# EasyVisa project configuration
+paths:
+  data: data/EasyVisa.csv
+  figures: reports/figures
+  metrics: reports/metrics.json
+  model: models/gradient_boosting_easyvisa.joblib
+
+split:
+  test_size: 0.3      # train vs (validation+test)
+  holdout_size: 0.1   # validation vs test, taken from the 30%
+  random_state: 1
+
+tuning:
+  # Number of random parameter combinations sampled by RandomizedSearchCV.
+  # 50 reproduces the study in full; lower it for a faster run.
+  n_iter: 50

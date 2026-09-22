@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easyvisa"
+version = "1.0.0"
+description = "US work-visa approval prediction with ensemble machine learning."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Bright" }]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "xgboost",
+    "imbalanced-learn",
+    "joblib",
+    "PyYAML",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
