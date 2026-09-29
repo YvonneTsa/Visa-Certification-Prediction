@@ -11,6 +11,9 @@ Predicting whether a US employment-based visa (labor certification) application 
 > **Final model, Gradient Boosting (tuned, undersampled): 90.0% recall on the held-out test set.**
 
 ---
+### Scope and limitations
+
+This is an educational analysis of historical data, not a deployed system or immigration advice. The results describe patterns in this dataset; they should not be used to make decisions about individual applicants.
 
 ## Overview
 
@@ -112,9 +115,9 @@ easyvisa-approval-prediction/
 ## Getting started
 
 ```bash
-# 1. Clone
-git clone https://github.com/<your-username>/easyvisa-approval-prediction.git
-cd easyvisa-approval-prediction
+# 1. Clone the repository
+git clone https://github.com/YvonneTsa/Visa-Certification-Prediction.git
+cd Visa-Certification-Prediction
 
 # 2. (Recommended) virtual environment
 python -m venv .venv && source .venv/bin/activate    # Windows: .venv\Scripts\activate
