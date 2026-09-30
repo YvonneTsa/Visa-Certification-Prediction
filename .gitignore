@@ -30,3 +30,4 @@ Thumbs.db
 # Notebook artifacts
 *.pkl
 *.joblib
+!models/gradient_boosting_easyvisa.joblib
