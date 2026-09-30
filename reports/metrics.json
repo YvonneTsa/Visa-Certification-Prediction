@@ -25,12 +25,12 @@
       "Decision Tree": 0.7395
     },
     "oversampled": {
-      "AdaBoost": 0.8623,
-      "GBM": 0.8592,
-      "XGBoost": 0.844,
-      "Random Forest": 0.8191,
-      "Bagging": 0.7438,
-      "Decision Tree": 0.7189
+      "XGBoost": 0.8183,
+      "GBM": 0.8173,
+      "AdaBoost": 0.8102,
+      "Random Forest": 0.8032,
+      "Bagging": 0.7471,
+      "Decision Tree": 0.7243
     },
     "undersampled": {
       "GBM": 0.7187,
@@ -43,10 +43,10 @@
   },
   "tuning": {
     "adaboost_oversampled": {
-      "best_cv_recall": 0.9319,
+      "best_cv_recall": 0.8265,
       "best_params": {
-        "n_estimators": "50",
-        "learning_rate": "0.01",
+        "n_estimators": "125",
+        "learning_rate": "1.0",
         "estimator": "DecisionTreeClassifier(max_depth=1, random_state=1)"
       }
     },
@@ -63,10 +63,10 @@
   },
   "validation": {
     "adaboost_oversampled": {
-      "Accuracy": 0.7055,
-      "Recall": 0.9303,
-      "Precision": 0.7147,
-      "F1": 0.8084
+      "Accuracy": 0.7069,
+      "Recall": 0.8182,
+      "Precision": 0.7609,
+      "F1": 0.7885
     },
     "gradient_boosting_undersampled": {
       "Accuracy": 0.726,
